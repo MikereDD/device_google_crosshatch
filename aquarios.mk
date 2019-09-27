@@ -49,3 +49,7 @@ BOARD_PREBUILT_VENDORIMAGE := vendor/images/crosshatch/vendor.img
 
 $(call inherit-product-if-exists, vendor/google/crosshatch/crosshatch-vendor.mk)
 $(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk)
+
+# Boot animation
+TARGET_SCREEN_HEIGHT := 2960
+TARGET_SCREEN_WIDTH := 1440
