@@ -17,7 +17,6 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_crosshatch.mk \
     $(LOCAL_DIR)/aosp_blueline.mk \
-    $(LOCAL_DIR)/aquarios.mk
 
 #COMMON_LUNCH_CHOICES := \
 #    aosp_crosshatch-userdebug \
