@@ -17,6 +17,7 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_crosshatch.mk \
     $(LOCAL_DIR)/aosp_blueline.mk \
+    $(LOCAL_DIR)/potato_crosshatch.mk \
 
 COMMON_LUNCH_CHOICES := \
     potato_crosshatch-userdebug
