@@ -23,5 +23,10 @@
    "repository":    "gitlab.com/AquariOS/vendor_pixelgapps",
    "target_path":   "vendor/pixelgapps",
    "branch":        "x"
+ },
+ {
+    "repository":   "github.com/AquariOS/vendor_extras",
+    "target_path":  "vendor/extras",
+    "branch":       "x"
  }
 ]
