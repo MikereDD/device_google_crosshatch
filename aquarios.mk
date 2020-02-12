@@ -53,3 +53,6 @@ $(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk)
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2960
 TARGET_SCREEN_WIDTH := 1440
+
+# Include a check for required repos - error out if not present
+$(call inherit-product, device/google/crosshatch/aqua_requirements.mk)
